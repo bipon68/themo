@@ -10,7 +10,7 @@ More than 100+ Pure CSS Image Hover Effects Which is very useful for your projec
 <li>Image Opacity</li>
 <li>Layer Hover</li>
 <li>Cubic Transition</li>
-<li>and Many More</li>
+<li>And many more</li>
 </ul>
 
 
