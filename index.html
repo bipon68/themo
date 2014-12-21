@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Themo by futureitpark</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/futureitpark/themo">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Themo</h1>
+            <h2>More than 100+ Pure CSS Image Hover Effects Which is very useful for your projects.</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/futureitpark/themo/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/futureitpark/themo/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <p>More than 100+ Pure CSS Image Hover Effects Which is very useful for your projects. By using this CSS You Will be able to add Variety of Image hover effects.</p>
+
+<h3>
+<a id="effects-you-will-get" class="anchor" href="#effects-you-will-get" aria-hidden="true"><span class="octicon octicon-link"></span></a>Effects You will get:</h3>
+
+<ul>
+<li>Zoom In &amp; Zoom Out</li>
+<li>Rotate Right &amp; Left</li>
+<li>Rotate &amp; Scale</li>
+<li>Rotate X &amp; Rotate Y</li>
+<li>Image Opacity</li>
+<li>Layer Hover</li>
+<li>Cubic Transition</li>
+<li>and Many More</li>
+</ul>
+
+<h2>
+<a id="html-structure" class="anchor" href="#html-structure" aria-hidden="true"><span class="octicon octicon-link"></span></a>HTML Structure:</h2>
+
+<pre><code>&lt;div class="ImageWrapper"&gt;
+            &lt;img src="Your_Image.jpg" alt=""&gt;
+            &lt;div class="ImageOverlayH"&gt;&lt;/div&gt;
+            &lt;div class="Buttons StyleH"&gt;
+                &lt;span class="white-rounded"&gt;&lt;a href=""&gt;&lt;i class="fa fa-search"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;/span&gt;
+                &lt;span class="white-rounded"&gt;&lt;a href=""&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+</code></pre>
+
+<h2>
+<a id="css-structure" class="anchor" href="#css-structure" aria-hidden="true"><span class="octicon octicon-link"></span></a>CSS Structure:</h2>
+
+<pre><code>.ImageWrapper .ImageOverlayH {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+        bottom: 0;
+        display: block;
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transition: all 0.2s ease 0s;
+        width: 100%;
+    }
+    .ImageWrapper:hover .ImageOverlayH {
+        opacity: 1;
+    }
+
+    .ImageWrapper .StyleH {
+        visibility: hidden;
+        margin: 0;
+        opacity: 0;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 50%;
+        margin-top: -20px;
+    }
+    .ImageWrapper:hover .StyleH {
+        opacity: 1;
+        visibility: visible;
+    }
+</code></pre>
+
+<p>Using this css hover effects in your pojects is very easy. Before adding this, We Recommend you to add FontAwesome, To grab this pligin you just need go <a href="http://fortawesome.github.io/Font-Awesome/">here</a> and follow the structure to use this plugin . After that, to use this css file insert this code before tag  in your index.html .</p>
+
+<pre><code>&lt;link rel="stylesheet" href="css/sinister.css"&gt;
+    &lt;link rel="stylesheet" href="css/font-awesome.min.css"&gt;
+</code></pre>
+
+<h2>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to Use</h2>
+
+<h3>
+<a id="first-step" class="anchor" href="#first-step" aria-hidden="true"><span class="octicon octicon-link"></span></a>First Step</h3>
+
+<p>First of all, add a image in your projects file, as bellow.</p>
+
+<pre><code>&lt;div class="ImageWrapper"&gt;
+        &lt;img src="YourImage.jpg" alt=""&gt;
+    &lt;/div&gt;
+</code></pre>
+
+<h3>
+<a id="second-step--add-overlay-tag" class="anchor" href="#second-step--add-overlay-tag" aria-hidden="true"><span class="octicon octicon-link"></span></a>Second Step : Add Overlay Tag</h3>
+
+<pre><code> &lt;div class="ImageWrapper"&gt;
+        &lt;img src="YourImage.jpg" alt=""&gt;
+        &lt;div class="ImageOverlayH"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+</code></pre>
+
+<h3>
+<a id="thired-step--add-hover-style--buttons" class="anchor" href="#thired-step--add-hover-style--buttons" aria-hidden="true"><span class="octicon octicon-link"></span></a>Thired Step : Add Hover Style &amp; Buttons</h3>
+
+<pre><code>&lt;div class="ImageWrapper"&gt;
+        &lt;img src="YourImage.jpg" alt=""&gt;
+        &lt;div class="ImageOverlayH"&gt;&lt;/div&gt;
+        &lt;div class="StyleH"&gt;
+            &lt;span class="WhiteRounded"&gt;&lt;a href=""&gt;&lt;i class="fa fa-search"&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;/span&gt;
+            &lt;span class="WhiteRounded"&gt;&lt;a href=""&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</code></pre>
+
+<h3>
+<a id="fourth-step--add-hover-style--buttons" class="anchor" href="#fourth-step--add-hover-style--buttons" aria-hidden="true"><span class="octicon octicon-link"></span></a>Fourth Step : Add Hover Style &amp; Buttons</h3> 
+
+<pre><code>&lt;div class="ImageWrapper"&gt;
+        &lt;img src="YourImage.jpg" alt=""&gt;
+        &lt;div class="ImageOverlayH"&gt;&lt;/div&gt;
+        &lt;div class="StyleH"&gt;
+            &lt;span class="WhiteRounded"&gt;&lt;a href=""&gt;&lt;i class="fa fa-search"&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;/span&gt;
+            &lt;span class="WhiteRounded"&gt;&lt;a href=""&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</code></pre>
+
+<h3>
+<a id="last-is-not-last--after-doins-as-above-your-code-shoud-be-like-this" class="anchor" href="#last-is-not-last--after-doins-as-above-your-code-shoud-be-like-this" aria-hidden="true"><span class="octicon octicon-link"></span></a>Last is not last : After doins as above, Your Code Shoud Be Like This:</h3>
+
+<pre><code>&lt;div class="ImageWrapper"&gt;
+        &lt;img src="YourImage.jpg" alt=""&gt;
+        &lt;div class="ImageOverlayH"&gt;&lt;/div&gt;
+        &lt;div class="StyleH"&gt;
+            &lt;span class="WhiteRounded"&gt;&lt;a href=""&gt;&lt;i class="fa fa-search"&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;/span&gt;
+            &lt;span class="WhiteRounded"&gt;&lt;a href=""&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</code></pre>
+
+<p>``</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/futureitpark">futureitpark</a> can be found on <a href="https://github.com/futureitpark/themo">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
