@@ -69,3 +69,26 @@ ul > li > div.blog-post .StyleNumber h4 {font-family: 'Source Sans Pro',Arial,sa
 /* -------------------- Footer -------------------- */
 footer {background: none repeat scroll 0 0 #131313;position: relative;overflow: hidden;margin: 0;}
 footer p {padding: 18px 0;color: #fff;font: 14px 'Source Sans Pro',Arial,sans-serif;}
+
+.btn {
+margin-top: 50px;
+font-size: 22px;
+padding: 9px 18px;
+color: #ffffff;
+border-color: #c7e7dc;
+background-color: transparent;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.shameless-self-promotion {
+margin-top: 22px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #FAFAFA;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+
+. shameless-self-promotion a {
+color: #F7F8F9;
+text-decoration: none;
+}
+
